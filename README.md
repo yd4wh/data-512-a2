@@ -86,7 +86,7 @@ We evaluated the Wikipedia articles on politician from two perspective:
 
 We then ranked the highest and lowest 10 countries in terms of these 2 measures:
 
-1. 10 highest-ranked countries in terms of pcnt_articles_per_population
+* 1. 10 highest-ranked countries in terms of **pcnt_articles_per_population**
 
 | country                        | article_count | population | pcnt_articles_per_population |
 |--------------------------------|---------------|------------|------------------------------|
@@ -102,7 +102,7 @@ We then ranked the highest and lowest 10 countries in terms of these 2 measures:
 | Federated States of Micronesia | 38            | 100000.0   | 0.038000                     |
 
 
-2. 10 lowest-ranked countries in terms of pcnt_articles_per_population
+* 2. 10 lowest-ranked countries in terms of **pcnt_articles_per_population**
 
 | country      | article_count | population   | pcnt_articles_per_population |
 |--------------|---------------|--------------|------------------------------|
@@ -118,7 +118,7 @@ We then ranked the highest and lowest 10 countries in terms of these 2 measures:
 | Mozambique   | 60            | 3.050000e+07 | 0.000197                     |
 
 
-3. 10 highest-ranked countries in terms of pcnt_high_quality_articles
+* 3. 10 highest-ranked countries in terms of **pcnt_high_quality_articles**
 
 | country                  | high_quality_article_count | article_count | pcnt_high_quality_articles |
 |--------------------------|----------------------------|---------------|----------------------------|
@@ -134,7 +134,7 @@ We then ranked the highest and lowest 10 countries in terms of these 2 measures:
 | Benin                    | 7                          | 94            | 7.446809                   |
 
 
-4. 10 lowest-ranked countries in terms of pcnt_high_quality_articles
+* 4. 10 lowest-ranked countries in terms of **pcnt_high_quality_articles**
 
 | country      | high_quality_article_count | article_count | pcnt_high_quality_articles |
 |--------------|----------------------------|---------------|----------------------------|
@@ -149,9 +149,15 @@ We then ranked the highest and lowest 10 countries in terms of these 2 measures:
 | Luxembourg   | 1                          | 180           | 0.555556                   |
 | Sierra Leone | 1                          | 166           | 0.602410                   |
 
+One caveat on the lowest-ranked countries in terms of pcnt_high_quality_articles, we only included countries that have at least 1 article qualified as "GA" or "FA" and didn't include countries that don't have any high quality articles about politicians. Therefore, as a separate group of countries that don't have any high quality articles written about politicians, we've listed below in alphabetical order. There are 37 countries that dont have any articles qualified as "GA" or "FA".
 
+'Andorra', 'Angola', 'Antigua and Barbuda', 'Bahamas', 'Barbados', 'Belgium', 'Belize', 'Cameroon', 'Cape Verde', 'Comoros', 'Costa Rica', 'Djibouti', 'Federated States of Micronesia', 'Finland', 'Guyana', 'Kazakhstan', 'Kiribati', 'Lesotho', 'Liechtenstein', 'Macedonia', 'Malta', 'Marshall Islands', 'Moldova', 'Monaco', 'Mozambique', 'Nauru', 'Nepal', 'San Marino', 'Sao Tome and Principe', 'Seychelles', 'Slovakia', 'Solomon Islands', 'Switzerland', 'Tunisia', 'Turkmenistan', 'Uganda', 'Zambia'
 
 ## Reflection
+
+First bias I was expecting came from the language aspect of things. The page dataset is collected on articles in english
+
+
 
 ## License
 
